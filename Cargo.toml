@@ -1,0 +1,13 @@
+[package]
+name = "rp2040-plus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = { version = "0.7.3", features = ["device"] }
+panic-halt = "0.2.0"
+
+[[bin]]
+name = "rp2040-plus"
+path = "src/main.rs"
