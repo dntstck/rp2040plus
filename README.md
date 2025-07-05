@@ -131,8 +131,4 @@ output:
 Entry point address: 0x10000009
 ```
 
-✔ ELF entry point set
-✔ Reset vector resolved
-✔ Bootable image confirmed
-
 ---
