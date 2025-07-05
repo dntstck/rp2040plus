@@ -9,10 +9,10 @@ modular starter project for embedded Rust on RP2040
 - `cargo build` appeared successful
 - `readelf -h target/.../rp2040-plus | grep Entry` → always `0x0`
 - ELF contained vector table, `Reset`, etc.—but no entry point exported
-- **Default linker script override** broke implicit symbol definitions
+- default linker script override broke implicit symbol definitions
 - `__pre_init` missing → linker failure
 - `.vector_table` present but stripped or not marked entry
-- Project was being built but **entry point wasn’t retained in ELF header**
+- project was being built but entry point wasnt retained in ELF header
 
 ---
 
