@@ -1,6 +1,7 @@
 ### Waveshare RP2040-Plus Scaffold
 
 modular starter project for embedded Rust on RP2040
+
 ---
 
 ### devlog
